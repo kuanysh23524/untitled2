@@ -182,3 +182,6 @@ except Exception as e:
 
 
 print("проверка")
+print("проверка")
+print("проверка")
+print("проверка")
