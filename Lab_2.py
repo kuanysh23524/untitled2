@@ -267,3 +267,5 @@ try:
 
 except ValueError:
     print("Некорректный ввод")
+
+    print("Sayat ")
