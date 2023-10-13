@@ -115,10 +115,12 @@ try:
         num_b = int(input("Введите число B: "))
         num_c = int(input("Введите число C: "))
 
-        largest = max(num_a, num_b, num_c)  # Находим наибольшее число
-        smallest = min(num_a, num_b, num_c)  # Находим наименьшее число
+        # largest = max(num_a, num_b, num_c)  # Находим наибольшее число
+        # smallest = min(num_a, num_b, num_c)  # Находим наименьшее число
 
-        average = (smallest + largest) / 2  # Вычисляем среднее
+        # average = (smallest + largest) / 2  # Вычисляем среднее
+
+        average = (num_a+num_b+num_c)/3
 
         print("Среднее значение:", average)
 
