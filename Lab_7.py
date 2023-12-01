@@ -5,7 +5,7 @@ def read_file(file_path):
     except FileNotFoundError:
         print("File not found. Please check the file path.")
         return None
-
+d
 
 def ex_1(file_path):
     """
