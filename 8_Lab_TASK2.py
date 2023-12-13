@@ -2,7 +2,6 @@ import requests
 import json
 import random
 
-# Определяем класс 'Episode' для представления эпизода Rick and Morty
 class Episode:
     # Что то на подобие конструктора , для обращение к данным элемента
     def __init__(self, id, name, air_date, episode, characters, url, created):
@@ -20,7 +19,7 @@ class Episode:
         print(f"Дата выхода: {self.air_date}")
         print(f"Персонажи: {len(self.characters)}")
 
-# Определяем класс 'Character' для представления персонажа Rick and Morty , конструктор
+#  класс 'Character' для представления персонажа Rick and Morty , конструктор
 class Character:
     def __init__(self, id, name, status, species, type, gender, origin, location, image, episode, url, created):
         self.id = id
